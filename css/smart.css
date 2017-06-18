@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+@media screen and (max-width:741px){
+
+body {
+  background-color: #FFFFFF;
+  color: #333;
+  font-family: Arial,Geneva,"Hiragino Kaku Gothic ProN","MS Gothic";
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+.center {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+a:link {
+  color: #000000;
+}
+a:visited {
+  color: #000000;
+}
+a:hover {
+  color: #808080;
+  opacity: 0.7;
+}
+a:focus {
+  color: #000000;
+}
+a:active {
+  color: #000000;
+}
+p {
+  font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  margin: 10px 5px;
+}
+img {
+  border-style: none;
+}
+a img {
+  border-style: none;
+}
+ul {
+  margin-left: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+ul li {
+  margin: 0px 0px;
+}
+ol {
+  list-style: none;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+h2 {
+  font-size: 12px;
+  line-height: 32px;
+  color: #333;
+  font-weight: normal;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+  font-family: 'Lato','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+/*--------------------------------------------------*/
+.inner {
+  margin-bottom: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inner p {
+  -webkit-transition: all 1s;
+  -webkit-transform: translate(0, 0);
+  opacity: 1;
+}
+.inner p.move {
+  -webkit-transform: translate(-10px, 0);
+  opacity: 0;
+}
+/*--------------------------------------------------*/
+#header {
+  width: 100%;
+  height: 65px;
+  background-color: #F2F2F2;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+#header-title {
+  float: left;
+  margin-left: 1px;
+  position: relative;
+  top: 5px;
+  left: 1%;
+  height: 60px;
+}
+#header-right {
+  float: right;
+  position: relative;
+  right: 3%;
+  top: 10px;
+}
+#header-title img {
+  padding: 10px 10px 0px 10px;
+}
+/*--------------------------------------------------*/
+#menu {
+  display: none;
+}
+#menu-btn {
+}
+#menu-btn a {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+#s-menu {
+  border-left: 1px solid #dad8d2;
+  z-index: 101;
+  width: 100%;
+  overflow-y: auto;
+  position: fixed;
+  top: 65px;
+  z-index: 0;
+  display: none;
+  background-color: #ffffff;
+  -webkit-transform: translate(0px);
+}
+#s-menu ul {
+  list-style: none;
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+  border: 0;
+  width: 100%;
+}
+#s-menu li {
+  font-weight: bold;
+  background: none;
+  border-bottom: 1px solid #dad8d2;
+  text-align: center;
+}
+#s-menu li a {
+  display: inline-block;
+  color: #333;
+  white-space: nowrap;
+  padding: 10px 20%;
+  letter-spacing: 5px;
+}
+/*--------------------------------------------------*/
+#container {
+  margin: auto;
+  width: 100%;
+  padding-top: 65px;
+}
+#container .section {
+  border: #5f4136 solid 1px;
+  padding: 0 19px 0 19px;
+  margin-bottom: 26px;
+  display: block;
+}
+/*--------------------------------------------------*/
+#index-top {
+  background: url(../img/top-image.jpg) top center no-repeat;
+  height: 480px;
+}
+.index-top-title {
+  padding: 25px 60px 25px 25px;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  line-height: 100px;
+  letter-spacing: 15px;
+  position: relative;
+  float: left;
+} 
+/*--------------------------------------------------*/
+#works {
+  margin: 5px 0px 5px 0px;
+  padding: 10px 0px 20px 0px;
+  overflow: hidden;
+  line-height: 23px;
+}
+.title-img {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+}
+.box-img img {
+  position: relative;
+  margin: auto 0;
+  padding: 10px;
+}
+.box-shadow {
+  padding: 25px 30px 25px 30px;
+  background-color: #fafbfc;
+}
+/*--------------------------------------------------*/
+#footer {
+  border-top: 1px solid #e0e0e0;
+  padding: 0 0 10px 0;
+  clear: both;
+}
+#footer .footer-content {
+  width: 100%;
+  padding: 2px 0;
+  font-size: 13px;
+}
+#footer .footer-content p.copyright {
+  font-size: 11px;
+  line-height: 2em;
+  color: #666666;
+  text-align: center;
+  margin: 15px 0px 0px 0px;
+}
+/*--------------------------------------------------*/
+h2 {
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+h2 .line1 {
+  font-size: 22px;
+  color: #8A7973;
+  font-weight: normal;
+  line-height: 1.8em;
+  letter-spacing: 7px;
+}
+h2 .line2 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #8A7973;
+  margin: 20px;
+}
+/*--------------------------------------------------*/
+h3 {
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+h3 img {
+  vertical-align: middle;
+}
+h3 .line1 {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+h3 .line2 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 0px 0px 0px 8px;
+  color: #333333;
+}
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+/*--------------------------------------------------*/
+
+}
