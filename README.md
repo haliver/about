@@ -9,9 +9,47 @@
 - サーバーの保守業務1年半
 - ソフトウェア開発4年(ソーシャルゲーム、SNSフルスクラッチ開発、業務系システム開発 等)
 - アプリケーションエンジニアTech Lead経験1年以上
-- 個人事業主7年~
+- 個人事業主9年~
 
 ## 関わった開発案件と実績
+
+### クーポンサイトの新規開発
+- 業務内容
+  - サーバーサイド、フロントエンドの開発
+  - APIの開発
+  - 基本設計・詳細設計
+  - DB設計
+  - 実装
+  - コードレビュー
+  - テスト
+- スキル
+  - 言語: Ruby3.2.x | HTML | CSS | JavaScript
+  - FrameWork: Ruby on Rails 7.x~
+  - Third-party libraries: RSpec 3.x | Redis | Sidekiq
+  - Database: RDS
+  - インフラ: AWS
+  - その他: Git | Docker | Slack | CircleCI | GitHub
+
+---
+
+### 葬儀顧客管理システムの開発
+- 業務内容
+  - サーバーサイド、フロントエンドの開発
+  - APIの開発
+  - 基本設計・詳細設計
+  - DB設計
+  - 実装
+  - コードレビュー
+  - テスト
+- スキル
+  - 言語: Ruby2.7.x | HTML | CSS | JavaScript
+  - FrameWork: Ruby on Rails 6.x~
+  - Third-party libraries: RSpec 3.x | Redis | jQuery
+  - Database: PostgreSQL
+  - インフラ: AWS
+  - その他: Git | Docker | Slack | GitHub
+
+---
 
 ### フードロス削減サービスでの開発
 - 業務内容
@@ -115,4 +153,4 @@
 
 ---
 
-詳しくは[お問い合わせ](mailto:contact@healthhack.jp)よりご連絡ください。
+詳しくは[お問い合わせ](https://forms.gle/D8v6MZMRVDxtmtt48)よりご連絡ください。
