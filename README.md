@@ -9,9 +9,25 @@
 - サーバーの保守業務1年半
 - ソフトウェア開発4年(ソーシャルゲーム、SNSフルスクラッチ開発、業務系システム開発 等)
 - アプリケーションエンジニアTech Lead経験1年以上
-- 個人事業主9年~
+- 個人事業主11年~
 
-## 関わった開発案件と実績
+## 直近で関わった開発案件と実績
+
+### 駐車場管理システムの運用と開発
+- 業務内容
+  - サーバーサイド、フロントエンドの開発
+  - APIの開発
+  - 基本設計・詳細設計
+  - DB設計
+  - Ruby,Railsのバージョンアップ(2->3,6->7)
+- スキル
+  - 言語: Ruby3.2 | Vue | JavaScript
+  - FrameWork: Ruby on Rails 7.2
+  - Database: RDS
+  - インフラ: AWS
+  - その他: Git | Docker | AWS CodeCommit | GitHub | Backlog | Miro
+
+---
 
 ### クーポンサイトの新規開発
 - 業務内容
@@ -28,7 +44,7 @@
   - Third-party libraries: RSpec 3.x | Redis | Sidekiq
   - Database: RDS
   - インフラ: AWS
-  - その他: Git | Docker | Slack | CircleCI | GitHub
+  - その他: Git | Docker | Slack | CircleCI | GitHub | Figma | esa | Cacoo
 
 ---
 
